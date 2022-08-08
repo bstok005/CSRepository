@@ -14,7 +14,6 @@ const char* names[] = {"Adams", "Baker", "Clarke", "Daniels", "Evans",
 		       "Zimmerman"
 };  
 
-
 void testList(int numberOfItems)
 {
   NameList L;
