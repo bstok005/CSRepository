@@ -15,7 +15,7 @@ const char* names[] = {"Adams", "Baker", "Clarke", "Daniels", "Evans",
 };  
 
 
-void testList (int numberOfItems)
+void testList(int numberOfItems)
 {
   NameList L;
   // Test part 1 - try adding to the front
@@ -33,7 +33,7 @@ void testList (int numberOfItems)
   L.clear();
   for (int i = 0; i < numberOfItems; ++i)
     {
-      L.addToEnd (names[i]);
+      L.addToEnd(names[i]);
     }
   L.print(cout);
   cout << endl;
@@ -44,9 +44,11 @@ void testList (int numberOfItems)
 
 int main()
 {
+  int numberOfItems;
+  
   for (int test = 26; test >= 0; --test)
     {
-      testList(test);
+      testList(numberOfItems);
     }
 
   return 0;
