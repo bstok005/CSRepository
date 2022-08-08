@@ -4,9 +4,6 @@
 #include <iostream>
 #include <string>
 
-
-
-
 struct NameListNode {
   std::string name;
   NameListNode* next;
