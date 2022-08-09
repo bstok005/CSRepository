@@ -43,11 +43,11 @@ void testList(int numberOfItems)
 
 int main()
 {
-  int numberOfItems;
+  //int numberOfItems;
   
   for (int test = 26; test >= 0; --test)
     {
-      testList(numberOfItems);
+      testList(test);
     }
   return 0;
 }
